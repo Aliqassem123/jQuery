@@ -1,0 +1,263 @@
+.header{
+     width: 100%;
+    height: 100vh;
+    background-image: url(../img/Tomorrowland.jpeg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+object-fit: cover;
+
+
+   
+    }
+   
+  
+
+
+.gg{
+    height: 100vh;
+    width: 100%;
+}
+.overflow{
+    background-color: #e900757a;
+    width: 100%;
+    height: 100%;
+  
+color: #ccc;
+   
+}
+
+.overflow h1{
+    font-size: 50px
+}
+.overflow p{
+    font-size: 20px;
+}
+.sliderDown{
+    
+}
+.Singer1,.Singer2,.Singer3,.Singer4{
+    background: linear-gradient(to right, #3AA6B9 10% , #E90074  );
+    color: #fff;
+   
+}
+
+.Singer{
+    width: 50%;
+    background-color: #7fced6c7;
+
+}
+.Singer h3{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+.Singer p{
+
+    text-align: center;
+}
+
+/* ============= */
+.arrow{
+    margin-right: 10px;
+}
+
+.nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: -14%;
+    z-index: 9999999999;
+
+    bottom: 0;
+}
+.menu-link{
+    
+    background-color: black;
+    height: 100vh;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 38px;
+    padding: 50%;
+
+}
+.menu-link a{
+text-decoration: none;
+color: #fff;
+margin-bottom: 50px;
+padding-right: 50%;
+}
+
+.menu-link a:hover{
+color: #E90074;
+}
+.closebtn {
+   position: relative;
+   left: 80%;
+   top: 20px;
+   width: 100%;
+}
+
+.menu-icon{
+
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+font-size: 25px;
+font-weight: 400;
+}
+.menu-icon p{
+    color: #E90074;
+
+}
+.menu-icon svg{
+    color: #E90074;
+
+}
+
+
+.tiem-event {
+    background-image: url(../img/download\ party.jpeg);
+    
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 10%;
+}
+
+.timer-box {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 5px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.join-us-box {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+    border-radius: 5px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+/* //============= */
+#contact {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size:35px;
+    font-weight: 500;
+    color: rgb(58, 58, 58);
+}
+
+#contact p {
+    text-align: center;
+    color: rgb(117, 116, 116);
+}
+
+#contact-info {
+    margin-bottom: 30px;
+}
+
+#contact-info h3 {
+    margin-bottom: 10px;
+    color: rgb(58, 58, 58);
+
+}
+
+#contact-info ul {
+    list-style: none;
+    color: rgb(58, 58, 58);
+    
+}
+
+#contact-info ul li {
+    margin-bottom: 5px;
+}
+
+#contact-info ul li span {
+    display: block;
+}
+
+#contact-info ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.icon ul li a {
+font-size: 20px;
+border: gray solid 2px;
+padding: 8px;
+}
+.icon ul li a:hover svg{
+    color: #c0392b;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form textarea {
+    height: 150px;
+    resize: none;
+}
+
+#charCount {
+    text-align: right;
+    font-size: 30px;
+    color: #c0392b;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #c0392b;
+}
+
+.skitter{
+    margin: auto;
+}
